@@ -3,11 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>オリジナルサイト</title>
+  <title>架空ソリューションズ株式会社</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <h1>オリジナルサイト</h1>
-  <p>初めてのオリジナルサイトです！ようやく完成です。</p>
+  <header>
+    <h1>架空ソリューションズ株式会社</h1>
+    <p>未来を創造するIT企業</p>
+  </header>
+
+  <nav>
+    <a href="#about">会社概要</a>
+    <a href="#services">サービス</a>
+    <a href="#team">メンバー</a>
+    <a href="#contact">お問い合わせ</a>
+  </nav>
+
+  <div class="hero">
+    <h2>テクノロジーで未来を拓く</h2>
+    <p>革新的なソリューションをあなたへ</p>
+  </div>
+
+  <div class="container">
+    <section id="about">
+      <h2>会社概要</h2>
+      <p>架空ソリューションズ株式会社は、最新テクノロジーでお客様のビジネスを支援するIT企業です。クラウドサービスやAIソリューション、DX支援など、幅広いサービスを展開しています。</p>
+    </section>
+
+    <section id="services">
+      <h2>サービス</h2>
+      <div class="services">
+        <div>
+          <h3>クラウド開発</h3>
+          <p>高可用性・スケーラビリティを備えたクラウドシステムを構築します。</p>
+        </div>
+        <div>
+          <h3>AI分析</h3>
+          <p>機械学習を活用し、データから価値ある知見を導き出します。</p>
+        </div>
+        <div>
+          <h3>Web制作</h3>
+          <p>ユーザー体験を重視したWebアプリケーションを提供します。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="team">
+      <h2>メンバー</h2>
+      <div class="team">
+        <div class="member">
+          <h3>山田 太郎</h3>
+          <p>代表取締役 CEO</p>
+        </div>
+        <div class="member">
+          <h3>佐藤 花子</h3>
+          <p>CTO / AIエンジニア</p>
+        </div>
+        <div class="member">
+          <h3>鈴木 次郎</h3>
+          <p>フルスタックエンジニア</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>お問い合わせ</h2>
+      <form id="contact-form">
+        <label for="name">お名前</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">メールアドレス</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">お問い合わせ内容</label><br>
+        <textarea id="message" name="message" rows="4"></textarea><br>
+        <button type="submit">送信</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 架空ソリューションズ株式会社</p>
+  </footer>
 </body>
 </html>
